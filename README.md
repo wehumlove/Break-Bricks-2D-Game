@@ -4,6 +4,8 @@ Python code to generate images of the 2D game Break Bricks
 this is NOT an interactive user game, it only generate images, for the purpose of creating videos, the game plays by itself
 Developed and tested on Macos only
 
+Licence : CC0
+
 2- dependencies: 
 
 uses the python packages:
