@@ -33,6 +33,24 @@ def check_intersection_side(rectA, speedA, brickB):
     ARightInside = False
     ATopInside = False
     ABottomInside = False
+    if (rectA.left <= rectB.left) and (rectB.right <= rectA.right):
+        if trace1:
+            print(f"frm {frame_count} brick B         L-----------R");
+            print(f"frm {frame_count} ball  A       L------------------R");
+            print(f"frm {frame_count} C5 AL {rectA.left} BL {rectB.left} BR {rectB.right} AR {rectA.right} ")
+        ALeftInside = True
+    if (rectA.top <= rectB.top) and (rectB.bottom <= rectA.bottom):
+        if trace1:
+            print(f"frm {frame_count} brick B         T-----------B");
+            print(f"frm {frame_count} ball  A       T------------------B");
+            print(f"frm {frame_count} C6 AL {rectA.top} BL {rectB.top} BR {rectB.bottom} AR {rectA.bottom} ")
+        ATopInside = True
+    if (rectA.left <= rectB.left) and (rectB.right <= rectA.right):
+        if trace1:
+            print(f"frm {frame_count} brick B         L-----------B");
+            print(f"frm {frame_count} ball  A       L------------------R");
+            print(f"frm {frame_count} C1 BL {rectB.left} AL {rectA.left} BR {rectB.right}")
+        ALeftInside = True
     if rectB.left <= rectA.left <= rectB.right:
         if trace1:
             print(f"frm {frame_count} brick B         L-----------B");
