@@ -24,6 +24,7 @@ Unzip the file in any folder
 to run the code
 
 cd [folder where the code is]
+
 python3 ./draw-bricks-07.py
 
 5- Outputs
