@@ -5,6 +5,7 @@ this is NOT an interactive user game, it only generate images, for the purpose o
 Developed and tested on Macos only
 
 2- dependencies: 
+
 uses the python packages:
 os
 random
@@ -14,13 +15,17 @@ pygame
 
 3- Installation
 
+Unzip the file in any folder
+
 4- Execution
+
 to run the code
 
 cd <folder where the code is>
 python3 ./draw-bricks-07.py
 
 5- Outputs
+
 In the folder ./output_images 
 there are the *.bmp images files
 that can be added in a video editing software like blender
